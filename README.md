@@ -15,7 +15,7 @@ npm install sinon mochon --save-dev
 ### Before
 
 ```js
-import sinon from 'sinon'
+const sinon = require('sinon')
 
 describe('Something I am testing', () => {
   beforeEach(() => {
@@ -36,7 +36,7 @@ describe('Something I am testing', () => {
 ### After
 
 ```js
-import mochon from 'mochon'
+const mochon = require('mochon')
 
 describe('Something I am testing', () => {
   const sinon = mochon()
