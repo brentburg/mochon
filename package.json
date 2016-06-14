@@ -1,14 +1,14 @@
 {
   "name": "mochon",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sinon integration for mocha",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["mocha", "sinon", "mock", "stub", "spy", "test", "testing"],
+  "author": "Brent Burgoyne",
+  "license": "MIT",
   "peerDependencies": {
     "sinon": "^1.0.0"
   },
