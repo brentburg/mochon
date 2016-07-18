@@ -10,7 +10,8 @@ function makeSandbox (config) {
     sandbox.restore()
   })
 
-  // expose assertions and matchers
+  // expose additional sinon properties
+  sandbox.createStubInstance = sinon.createStubInstance
   sandbox.assert = sinon.assert
   sandbox.match = sinon.match
 

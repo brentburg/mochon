@@ -35,6 +35,11 @@ describe('mochon', function () {
     sinon.assert.calledOn(sandbox.restore, sandbox)
   })
 
+  it('exposes sinon createStubInstance', function () {
+    var ret = mochon()
+    assert.equal(ret.createStubInstance, sinon.createStubInstance)
+  })
+
   it('exposes sinon assert', function () {
     var ret = mochon()
     assert.equal(ret.assert, sinon.assert)
